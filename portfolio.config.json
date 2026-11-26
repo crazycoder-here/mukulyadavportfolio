@@ -1,0 +1,192 @@
+{
+  "identity": {
+    "name": "Mukul Yadav",
+    "barTitle": "MUKUL YADAV",
+    "terminalUser": "lucifer",
+    "domain": "mukulyadavportfolio.vercel.app",
+    "tagline": "voice in, work done.",
+    "github": "crazycoder-here",
+    "storagePrefix": "lucifer"
+  },
+  "about": {
+    "bio": "First-year B.Tech CSE (AI & ML) student who builds autonomous AI agents and apps. Creator of ORBIT — a voice-first AI agent with 110+ tools that understands what you say, does the work itself, talks on phone calls, and learns new skills from its own work.",
+    "extra": "Greater Noida, India · AI Agents · App & Web Development"
+  },
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/crazycoder-here"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/maybemukul"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/lucifer.works"
+    },
+    {
+      "label": "Portfolio",
+      "url": "https://mukulyadavportfolio.vercel.app"
+    }
+  ],
+  "work": [
+    {
+      "when": "10/2026 – present",
+      "title": "Independent AI Agent Builder",
+      "org": "ORBIT",
+      "where": "Personal project",
+      "desc": "Designing and building ORBIT, an autonomous voice-first AI agent with 110+ tools — it understands spoken intent, acts on it, talks on phone calls, and learns new skills from its own work.",
+      "url": "https://github.com/crazycoder-here"
+    },
+    {
+      "when": "2026 – 2030",
+      "title": "B.Tech CSE (AI & ML)",
+      "org": "Galgotias University",
+      "where": "Greater Noida",
+      "desc": "First-year undergraduate in Computer Science (AI & ML), focused on AI agents, LLM systems, and app/web development."
+    }
+  ],
+  "projects": [
+    {
+      "name": "ORBIT",
+      "tag": "AI Agent · Python",
+      "desc": "An autonomous AI agent that runs on voice — no wake word; it understands, does the work, talks on phone calls, and learns new skills from its own work.",
+      "long": "ORBIT is a self-built autonomous AI agent with 110+ tools. You speak, it understands the intent — no wake word, no menus — and gets the work done across the desktop, the web, and even live phone calls. After multi-step work it saves what it learned as a reusable skill, so the same task runs faster next time.",
+      "githubRepo": "",
+      "shots": [],
+      "stack": [
+        "Python",
+        "LLM APIs",
+        "Faster Whisper",
+        "Voice AI"
+      ],
+      "url": "https://github.com/crazycoder-here",
+      "facts": [
+        [
+          "type",
+          "AI Agent"
+        ],
+        [
+          "status",
+          "active build"
+        ],
+        [
+          "tools",
+          "110+"
+        ],
+        [
+          "input",
+          "voice · no wake word"
+        ],
+        [
+          "since",
+          "Oct 2026"
+        ]
+      ]
+    },
+    {
+      "name": "StayUp",
+      "tag": "App · Flutter · Supabase",
+      "desc": "A hostel attendance app with a live build and a Supabase backend.",
+      "long": "StayUp makes hostel attendance painless: mark and track attendance from the phone, backed by Supabase, shipped as a working app with a live web build.",
+      "githubRepo": "",
+      "shots": [],
+      "stack": [
+        "Flutter",
+        "Supabase"
+      ],
+      "url": "https://stayup-black.vercel.app",
+      "facts": [
+        [
+          "type",
+          "Mobile App"
+        ],
+        [
+          "status",
+          "live"
+        ],
+        [
+          "backend",
+          "Supabase"
+        ],
+        [
+          "platform",
+          "Android · Web"
+        ]
+      ]
+    },
+    {
+      "name": "Karcha Tracker",
+      "tag": "App · Finance",
+      "desc": "A personal expense tracker with clear monthly views of where the money goes.",
+      "long": "Karcha Tracker records everyday spending and rolls it up into monthly views, so the leaks in a budget are visible at a glance.",
+      "githubRepo": "",
+      "shots": [],
+      "stack": [],
+      "url": "https://github.com/crazycoder-here",
+      "facts": [
+        [
+          "type",
+          "Mobile App"
+        ],
+        [
+          "status",
+          "working"
+        ],
+        [
+          "focus",
+          "monthly expenses"
+        ],
+        [
+          "platform",
+          "Android"
+        ]
+      ]
+    },
+    {
+      "name": "Think & Control",
+      "tag": "Computer Vision · Python",
+      "desc": "Hands-free computer control through a plain webcam — move your head to move the focus, blink to select.",
+      "long": "Think & Control turns a normal webcam into a hands-free controller: head direction steps the focus across the screen like a D-pad, and a long blink selects — no special hardware, no wearables.",
+      "githubRepo": "",
+      "shots": [],
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "OpenCV"
+      ],
+      "url": "https://github.com/crazycoder-here",
+      "facts": [
+        [
+          "type",
+          "CV Tool"
+        ],
+        [
+          "status",
+          "prototype"
+        ],
+        [
+          "input",
+          "webcam · head + blink"
+        ],
+        [
+          "platform",
+          "Windows"
+        ]
+      ]
+    }
+  ],
+  "talks": [],
+  "wallRepos": [],
+  "siteStack": [
+    {
+      "name": "Vanilla JS",
+      "via": "zero-build frontend"
+    },
+    {
+      "name": "Canvas 2D",
+      "via": "intro + contribution ink"
+    }
+  ]
+}

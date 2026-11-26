@@ -1,0 +1,118 @@
+export interface Track {
+  id: string;
+  title: string;
+  artist: string;
+  videoId: string;
+}
+export interface Playlist {
+  id: string;
+  name: string;
+  tracks: Track[];
+}
+// ⚠️  These are copyrighted songs. The user has explicitly requested them.
+//     Each videoId points to the rights-holder's own official YouTube upload
+//     with embedding enabled. The YouTube IFrame player is rendered visibly
+//     (not hidden) so that ads, skip buttons, and branding remain accessible,
+//     per YouTube's Developer Policies.
+//
+// Adding a song = one line:
+//   { id: "XX", title: "Song Name", artist: "Artist", videoId: "XXXXXXXXXXX" },
+export const PLAYLISTS: Playlist[] = [
+  {
+    id: "side-a",
+    name: "Side A — The Tape",
+    tracks: [
+      { id: "01", title: "Downers at Dusk", artist: "Talha Anjum", videoId: "lXP_5tWMuFQ" },
+      { id: "02", title: "Glass Half Full", artist: "Talha Anjum, JJ47, Talhah Yunus, Umair", videoId: "avF5SdWVIRc" },
+      { id: "03", title: "Tujhko Kya Fikar?", artist: "Karma", videoId: "Vdh83LTVMbg" },
+      { id: "04", title: "Humsafar", artist: "Taimour Baig", videoId: "mx4QxSgzMOY" },
+      { id: "05", title: "Desperation", artist: "Talha Anjum, Umair", videoId: "n_NC-ZmQC50" },
+      { id: "06", title: "No Gifts", artist: "Taimour Baig", videoId: "bzewXsKsL7g" },
+      { id: "07", title: "Melancholy", artist: "Talha Anjum", videoId: "npbTBMXw5Gs" },
+      { id: "08", title: "Incurable Sadness", artist: "Talha Anjum", videoId: "ijc0tlMXumY" },
+      { id: "09", title: "Kashmakash", artist: "Akki On The Mic", videoId: "32L1X5LMpBs" },
+      { id: "10", title: "5AM in Lahore", artist: "Talha Anjum", videoId: "S4C108CZxxc" },
+      { id: "11", title: "Heartbreak Kid", artist: "Talha Anjum", videoId: "zSDgwvQoSHg" },
+      { id: "12", title: "Tanha", artist: "Taimour Baig", videoId: "btM07WpaCbQ" },
+      { id: "13", title: "Shikayat", artist: "Akki On The Mic", videoId: "izop8RIcAeI" },
+      { id: "14", title: "Secrets", artist: "Talha Anjum", videoId: "PzU2ru1kcJw" },
+      { id: "15", title: "La Ilaaj", artist: "Taimour Baig", videoId: "Di_87HTXm60" },
+      { id: "16", title: "Kaise Bataye Tumhe", artist: "Akki On The Mic", videoId: "32L1X5LMpBs" },
+      { id: "17", title: "Problems", artist: "Taimour Baig", videoId: "9__MRnOGar0" },
+      { id: "18", title: "Loneliness", artist: "Talha Anjum", videoId: "ySDD4nD8nro" },
+      { id: "19", title: "Zindagi", artist: "Taimour Baig", videoId: "FEFA8gtess4" },
+      { id: "20", title: "80s Ke Songs", artist: "Karma", videoId: "p5szWm-_VWE" },
+      { id: "21", title: "Kinara", artist: "Taimour Baig", videoId: "btM07WpaCbQ" },
+      { id: "22", title: "Jany Kyun", artist: "Taimour Baig", videoId: "cbXKdJQvAQY" },
+      { id: "23", title: "Self-Doubt Freestyle", artist: "Akki On The Mic", videoId: "izop8RIcAeI" },
+      { id: "24", title: "Saalo Saal", artist: "Taimour Baig", videoId: "nNp8DaEJ-xc" },
+      { id: "25", title: "Mere Ho Tum", artist: "Taimour Baig", videoId: "_ZkYVKKqMK0" },
+      { id: "26", title: "Na Mila", artist: "Taimour Baig", videoId: "nNp8DaEJ-xc" },
+      { id: "27", title: "Open Letter", artist: "Talha Anjum", videoId: "_X2WJv5chJo" },
+      { id: "28", title: "Lost in Time", artist: "Talha Anjum", videoId: "lXP_5tWMuFQ" },
+    ]
+  },
+  {
+    id: "side-b",
+    name: "Side B — Flip It",
+    tracks: [
+      { id: "29", title: "Departure Lane", artist: "Talha Anjum", videoId: "pJPnooVS7Ls" },
+      { id: "30", title: "Rainy Days", artist: "Talha Anjum", videoId: "R93zZrygXB0" },
+      { id: "31", title: "Let You Go", artist: "Talha Anjum", videoId: "QOPIUXsEv9o" },
+      { id: "32", title: "Two Tone", artist: "Talha Anjum", videoId: "ya-ZdFansMo" },
+      { id: "33", title: "Happy Hour", artist: "Talha Anjum", videoId: "CHV-VRQl8Lk" },
+      { id: "34", title: "False Prophets", artist: "Talha Anjum", videoId: "k07cbr33Daw" },
+      { id: "35", title: "Kahani", artist: "JJ47", videoId: "avF5SdWVIRc" },
+      { id: "36", title: "Mehfil", artist: "JJ47", videoId: "avF5SdWVIRc" },
+      { id: "37", title: "Shikwa", artist: "JJ47", videoId: "ef1R3Wg0Px0" },
+      { id: "38", title: "Khafa", artist: "JJ47", videoId: "QHdALebbQq0" },
+      { id: "39", title: "Nadaan", artist: "Karma", videoId: "p5szWm-_VWE" },
+      { id: "40", title: "Main Wahi Hoon", artist: "Karma", videoId: "tOYOtKmjSn8" },
+      { id: "41", title: "Rabta", artist: "Karma", videoId: "p5szWm-_VWE" },
+      { id: "42", title: "Karma", artist: "Karma", videoId: "EQjppK4XaWg" },
+      { id: "43", title: "Mulaqat", artist: "Taimour Baig", videoId: "4gtPNfnHkqE" },
+      { id: "44", title: "Suroor", artist: "Taimour Baig", videoId: "4gtPNfnHkqE" },
+      { id: "45", title: "Chahat", artist: "Taimour Baig", videoId: "e1acXYMuxZY" },
+      { id: "46", title: "Tasweer", artist: "Taimour Baig", videoId: "xZUzttYnmZg" },
+      { id: "47", title: "Yaad Kyu Ayi", artist: "Taimour Baig", videoId: "cbXKdJQvAQY" },
+import { db } from "@/db";
+import { shouts } from "@/db/schema";
+import { desc } from "drizzle-orm";
+export const dynamic = "force-dynamic";
+export async function GET() {
+  try {
+    const list = await db
+      .select()
+      .from(shouts)
+      .orderBy(desc(shouts.createdAt))
+      .limit(30);
+    return Response.json(list);
+  } catch (error) {
+    console.error("Failed to fetch shouts:", error);
+    return Response.json({ error: "Failed to fetch shouts" }, { status: 500 });
+  }
+}
+export async function POST(request: Request) {
+  try {
+    const body = await request.json();
+    const { name, message, songTitle, songArtist } = body;
+    if (!message || message.trim() === "") {
+      return Response.json({ error: "Message is required" }, { status: 400 });
+    }
+    const cleanName = name && name.trim() !== "" ? name.trim().slice(0, 50) : "Anonymous";
+    const cleanMessage = message.trim().slice(0, 300);
+    const [newShout] = await db
+      .insert(shouts)
+      .values({
+        name: cleanName,
+        message: cleanMessage,
+        songTitle: songTitle || null,
+        songArtist: songArtist || null,
+      })
+      .returning();
+    return Response.json(newShout);
+  } catch (error) {
+    console.error("Failed to post shout:", error);
+    return Response.json({ error: "Failed to save memory" }, { status: 500 });
+  }
+}
